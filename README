@@ -1,0 +1,6 @@
+A basic code which inserts the scraped Internshaala data into Neo4j. Neo4j is a graph database with nodes and relationships that stores data in a hierarchical manner.
+
+--> scraping.py contains the python script to scrape a website and stores the data in json file in the data folder
+--> StoringData.py stores the data in neo4j
+--> lookup.py is a code to retrieve the stored data in neo4j
+--> output.png shows the output of the stored data in neo4j
